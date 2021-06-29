@@ -463,3 +463,59 @@ Mengedit artikel
 
 ![31](https://user-images.githubusercontent.com/81422149/122710560-b3df2e80-d28a-11eb-8e29-5a59abb6c6fd.jpg)
 ![32](https://user-images.githubusercontent.com/81422149/122710545-aa55c680-d28a-11eb-8b6a-0edd60105266.jpg)
+
+
+# Praktikum 13
+
+1. Membuat Tabel User :
+
+![image](https://user-images.githubusercontent.com/81422149/123727145-67fc3d00-d8bb-11eb-944a-5139c3ade688.png)
+
+2. Membuat Model User :
+
+![image](https://user-images.githubusercontent.com/81422149/123727183-76e2ef80-d8bb-11eb-9363-ba0549b51a1a.png)
+
+3. Membuat Controller User :
+
+![image](https://user-images.githubusercontent.com/81422149/123727219-83ffde80-d8bb-11eb-9867-35f25ccbb1f0.png)
+
+4. Membuat View Login :
+
+![image](https://user-images.githubusercontent.com/81422149/123727260-924dfa80-d8bb-11eb-90f9-4c17fb53b24c.png)
+
+5. Membuat Database Seeder :
+
+- jalankan pada CLI php spark make:seeder UserSeeder
+- edit file Database/Seeds/UserSeeder.php :
+
+![image](https://user-images.githubusercontent.com/81422149/123727318-a98ce800-d8bb-11eb-8081-a3e89590af07.png)
+
+- lalu jalankan lagi CLI php spark db:seed UserSeeder
+
+Hasil Output :
+
+![image](https://user-images.githubusercontent.com/81422149/123727385-c0333f00-d8bb-11eb-8990-942b15293d14.png)
+
+dan ketika isi email,password maka muncul pada halaman portal admin :
+
+![image](https://user-images.githubusercontent.com/81422149/123727410-ca553d80-d8bb-11eb-972b-83b8ee979037.png)
+
+6. Menambahkan Auth Filter :
+
+![image](https://user-images.githubusercontent.com/81422149/123727456-dccf7700-d8bb-11eb-9c98-95686a62636a.png)
+
+7. Konfigurasi file app/Config/Filters.php :
+
+![image](https://user-images.githubusercontent.com/81422149/123727481-e822a280-d8bb-11eb-8ec1-a0117b9abbe2.png)
+
+8. dan konfigurasi app/Config/Routes.php :
+
+![image](https://user-images.githubusercontent.com/81422149/123727532-fc669f80-d8bb-11eb-98f1-7f2e97c5c072.png)
+
+hasil outputnya :
+
+![image](https://user-images.githubusercontent.com/81422149/123727557-04beda80-d8bc-11eb-8362-4b0741dd98ce.png)
+
+9. Fungsi Logout :
+
+![image](https://user-images.githubusercontent.com/81422149/123727587-10aa9c80-d8bc-11eb-8a3f-29cc4acc17e5.png)
