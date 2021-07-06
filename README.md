@@ -519,3 +519,18 @@ hasil outputnya :
 9. Fungsi Logout :
 
 ![image](https://user-images.githubusercontent.com/81422149/123727587-10aa9c80-d8bc-11eb-8a3f-29cc4acc17e5.png)
+
+
+# Tugas Praktikum 14
+
+1. Membuat Pagenation :
+
+<img width="819" alt="1" src="https://user-images.githubusercontent.com/81422149/124549773-d7dd6b00-de59-11eb-95dc-25482846c9df.png">
+
+2. Membuat Pencarian :
+    
+<img width="788" alt="2" src="https://user-images.githubusercontent.com/81422149/124550034-428ea680-de5a-11eb-8be3-ded2811276ca.png">
+
+3. Upload Gambar :
+    
+<img width="789" alt="3" src="https://user-images.githubusercontent.com/81422149/124550074-563a0d00-de5a-11eb-8fd3-0f3ea2bccf5c.png">
